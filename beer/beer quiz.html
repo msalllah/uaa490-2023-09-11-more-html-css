@@ -8,6 +8,7 @@
       table {
         border: 1px solid black;
         border-collapse: collapse;
+       
       }
       thead th {
         color: white;
@@ -29,6 +30,20 @@
       tr:hover {
         background-color: #bbbbbb;
       }
+    
+      thead th {
+        color: white;
+        background-color: rgb(89, 89, 232);
+        
+
+      }
+      tfoot th{
+        color: white;
+        background-color: rgb(89, 89, 232);
+      }
+    
+    }
+    
     </style>
   </head>
   <body>
@@ -40,22 +55,33 @@
       </caption>
       <tfoot>
         <tr>
+        
           <th colspan="2">Average</th>
           <th>5.9%</th>
           <th>54</th>
         </tr>
       </tfoot>
       <thead>
+      
         <tr>
-          <th colspan="2">Beer</th>
-          <th>Alcohol</th>
-          <th>IBU</td>
+         
+          <th colspan="2" rowspan="2">Beer</th>
+      <th colspan="2">Stats </th>
+      
+          
         </tr>
+        
+        <th>Alcohol</th>
+          <th>IBU</td>
       </thead>
       <tbody>
         <tr>
           <th rowspan="3">Matanuska
-            <img src="foobar.png">
+           
+            <h2> 
+              <img src="matanuska.png">
+            </h2>
+            
           </th>
           <td>Snow Bike</td>
           <td>4.7% </td>
@@ -72,7 +98,9 @@
         </tr>
         <tr>
           <th rowspan="2">Denali
-            <img src="foobar.png">
+            <h2>
+              <img src="denali.png" width="200px">
+            </h2>
           </th>
           <td>The Big DIPA</td>
           <td>8.5% </td>
@@ -83,7 +111,10 @@
           <td>71</td></tr>
         <tr>
           <th rowspan="2">Forty-Ninth State
-            <img src="foobar.png">
+           
+            <h2>
+              <img src="fortyninth.png" width="200px">
+            </h2>
           </th>
           <td>Solstice IPA</td>
           <td>6.8% </td>
